@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TrackMe</title>
+    <link class="css-link" rel="stylesheet" type="text/css" href="./assets/theme1.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="three" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1 style="font-family:serif; font-style: oblique;">TrackMe</h1>
+            <ul id="nav">
+                <li><a class="homered" href="#">Home</a></li>
+                <li><a class="homeblack" href="./group/group.html">CreateGroup</a></li>
+                <li><a class="homeblack" href="#">Setting</a></li>
+                <li><a class="homeblack" href="#">Help</a></li>
+                <li><a class="homeblack" href="#">Feedback</a></li>
+                <li><a class="homeblack" href="#">Contactus</a></li>
+            </ul>
+        </nav>
+        <!-- <button class="btn">Signin</button>
+               <button class="btn">Signup</button>-->
+        <a href="login/login.html"><img class="user" src="./assets/user.svg" style="height: 40px;width: 40px;"></a>
+    </header>
+    <div class="divider1"></div>
+    <!--<h2>If you are in trouble click the button below</h2>
+           <button  class="btn-tr">Click</button>
+            <button   class="btn-set">Set the Journey</button>-->
+    <!--<h2 class="send">Reciving from...</h2>-->
+    <div class="stop" >
+        <div class="journey">
+            <h2 class="send">Receving from...</h2>
+            <select class="select" id="mySelect" onchange="myFunction()">
+                <option value="theme1">Theme1</option>
+                <option value="theme2">Theme2</option>
+                <option value="theme3">Theme3</option>
+            </select>
+        </div>
+    </div>
+    <div class="receiving">
+        <div class="rev-img ">
+            <div class="image-wrapper blink">
+                <div class="image" style="background-image: url(./assets/man.svg);">
+                </div>
+            </div>
+            <p>Sivam singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>Satyendra singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>sunil singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>mohan singh</p>
+        </div>
+    </div>
+    <div class="stop">
+        <div class="journey" >
+            <h2 class="send">Sending to...</h2>
+            <button>Stop Journey</button>
+        </div>
+    </div>
+    <div class="sending">
+        <div class="rev-img">
+            <div class="image-wrapper blink">
+                <div class="image" style="background-image: url(./assets/man.svg);">
+                </div>
+            </div>
+            <p>Sivam singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>Satyendra singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>sunil singh</p>
+        </div>
+        <div class="rev-img">
+            <div class="image" style="background-image: url(./assets/man.svg);">
+            </div>
+            <p>mohan singh</p>
+        </div>
+    </div>
+    <nav class="sidebar hidden">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="img">
+            <img src="./assets/man.svg" style="height: 80px;width: 80px;">
+            <p>Satyendra kannaujiya</p>
+            <p>satyendra250896@gmail.com</p>
+        </div>
+        <div class="divider"></div>
+        <div class="other">
+            <a href="#">Groups</a>
+            <a href="#">Settings</a>
+             <a href="#">Journey history</a>
+            <a href="#">Feedbacks</a>
+            <a href="#">Help</a>
+            <a href="#">About us</a>
+            <a id="fotter" href="#">Like and Share</a>
+            <a id="fotter" href="#">Log out</a>
+        </div>
+    </nav>
+    <form action="./Addjourney/Addjourney.html">
+        <button class="fab at-right-bottom" title="Add new Journey">+</button>
+    </form>
+    <script type="text/javascript" src="./assets/script.js">
+    </script>
+    <!-- function openNav() {
+        console.log('hello');
+        var element = document.querySelector('.sidebar');
+        element.classList.toggle('hidden');
+
+
+    }
+
+    function closeNav() {
+
+        var element = document.querySelector('.sidebar');
+        element.classList.toggle('hidden');
+
+    }
+
+
+       function myFunction(){
+
+         var element = document.querySelector('#mySelect').value;
+          document.querySelector('.css-link').href=`./assets/${element}.css`;
+
+         console.log(element);
+
+       }*/-->
+</body>
+
+</html>
